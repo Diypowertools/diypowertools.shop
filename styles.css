@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    line-height: 1.5; /* Adjust line height for better readability */
+    line-height: 1; /* Adjust line height for better readability */
 }
 
 /* Container styles */
