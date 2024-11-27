@@ -1,0 +1,79 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4; /* Reduced line height for compactness */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Reduced margin */
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 10px; /* Reduced padding */
+}
+
+/* Headings */
+h1 {
+    font-size: 2em; /* Smaller font size */
+    margin-bottom: 10px; /* Reduced space below */
+}
+
+h2 {
+    font-size: 1.5em; /* Smaller font size */
+    margin-top: 10px; /* Reduced space above */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px; /* Reduced space below paragraphs */
+}
+
+/* Section styles */
+section {
+    padding: 15px; /* Reduced padding */
+    margin: 10px 0; /* Reduced margin */
+    border: 1px solid #ccc; /* Optional border for sections */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 5px; /* Reduced padding */
+    background: #35424a;
+    color: #ffffff;
+}
+
+/* Link hover effect */
+nav ul li a:hover {
+    text-decoration: underline;
+}
